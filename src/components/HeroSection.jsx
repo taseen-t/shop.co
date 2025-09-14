@@ -1,7 +1,7 @@
 const HeroSection = () => {
   return (
     <>
-      <div className="flex relative flex-col justify-center h-screen w-full">
+      <div className="flex relative flex-col justify-center h-screen w-full bg-[#f2f0f1]">
         <h1
           className="font-integralcf text-[72px] leading-[1.05] text-left absolute"
           style={{ top: 103, left: 100 }}
@@ -24,7 +24,11 @@ const HeroSection = () => {
         </button>
 
         <div>
-          <img src="./src/assets/images/heroImg.png" alt="HeroImage" className="mb-20"/>
+          <img
+            src="./src/assets/images/heroImg.png"
+            alt="HeroImage"
+            className="mb-21 ml-4"
+          />
           <img
             src="./src/assets/images/star.png"
             alt="star"

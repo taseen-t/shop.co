@@ -2,7 +2,8 @@ import Navbar from "./components/Navbar";
 import WelcomLine from "./components/WelcomLine";
 import HeroSection from "./components/HeroSection";
 import Divider from "./components/Divider";
-
+import NewArrivals from "./components/NewArrivals";
+import GarmentBox from "./components/GarmentBox";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <Navbar />
       <HeroSection />
       <Divider />
+      <NewArrivals />
+      <GarmentBox />
     </>
   );
 }

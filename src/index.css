@@ -7,14 +7,18 @@
     font-family: IntegralCF;
     src: url(./assets/fonts/integralcf-bold.otf);
 }
+@font-face {
+    font-family: SatoshiBold;
+    src: url(./assets/fonts/Satoshi-Bold.woff2);
+}
 
 @import "tailwindcss";
-body{
-    background-color: #f2f0f1;
-}
 
 @theme{
     --font-satoshi: Satoshi , "sans-serif";
+}
+@theme{
+    --font-satoshi-bold: satoshi-bold , "sans-serif";
 }
 @theme{
     --font-integralcf: IntegralCF , "sans-serif";
