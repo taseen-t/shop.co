@@ -4,7 +4,7 @@ const GarmentBox = () => {
   const products = [
     {
       title: "Vertical Stiped Shirt",
-      image: "./src/assets/images/verticalStriped.png",
+      image: "/images/verticalStriped.png",
       price: 211.99,
       oldPrice: 231.99,
       discount: 20,
@@ -12,19 +12,19 @@ const GarmentBox = () => {
     },
     {
       title: "Courage Graphic T-shirt",
-      image: "./src/assets/images/orangeT.png",
+      image: "/images/orangeT.png",
       price: 144.99,
       rating: 4,
     },
     {
       title: "Loose Fit Bermuda Shorts",
-      image: "./src/assets/images/shorts.png",
+      image: "/images/shorts.png",
       price: 79.99,
       rating: 3,
     },
     {
       title: "Faded Skinny Jeans",
-      image: "./src/assets/images/skinny.png",
+      image: "/images/skinny.png",
       price: 209.99,
       rating: 4.5,
     },

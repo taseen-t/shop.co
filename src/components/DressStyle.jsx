@@ -11,7 +11,7 @@ const DressStyle = () => {
           <div className="relative h-[289px] w-full rounded-[20px] overflow-hidden cursor-pointer group transition-all duration-300 hover:shadow-[0_0_30px_rgba(255,255,255,0.5)] hover:scale-[1.02]">
             <div className="absolute inset-0 bg-white/0 group-hover:bg-white/10 transition-colors duration-300 z-0"></div>
             <img
-              src="./src/assets/images/casual.png"
+              src="/images/casual.png"
               alt="casual img"
               className="w-full h-full object-cover rounded-[20px] transition-transform duration-300 group-hover:scale-105"
             />
@@ -22,7 +22,7 @@ const DressStyle = () => {
           <div className="relative col-span-2 h-[289px] w-full rounded-[20px] overflow-hidden cursor-pointer group transition-all duration-300 hover:shadow-[0_0_30px_rgba(255,255,255,0.5)] hover:scale-[1.02]">
             <div className="absolute inset-0 bg-white/0 group-hover:bg-white/10 transition-colors duration-300 z-0"></div>
             <img
-              src="./src/assets/images/formal.png"
+              src="/images/formal.png"
               alt="Formal img"
               className="w-full h-full object-cover rounded-[20px] transition-transform duration-300 group-hover:scale-105"
             />
@@ -33,7 +33,7 @@ const DressStyle = () => {
           <div className="relative col-span-2 h-[289px] w-full rounded-[20px] overflow-hidden cursor-pointer group transition-all duration-300 hover:shadow-[0_0_30px_rgba(255,255,255,0.5)] hover:scale-[1.02]">
             <div className="absolute inset-0 bg-white/0 group-hover:bg-white/10 transition-colors duration-300 z-0"></div>
             <img
-              src="./src/assets/images/party.png"
+              src="/images/party.png"
               alt="party img"
               className="w-full h-full object-cover rounded-[20px] transition-transform duration-300 group-hover:scale-105"
             />
@@ -44,7 +44,7 @@ const DressStyle = () => {
           <div className="relative h-[289px] w-full rounded-[20px] overflow-hidden cursor-pointer group transition-all duration-300 hover:shadow-[0_0_30px_rgba(255,255,255,0.5)] hover:scale-[1.02]">
             <div className="absolute inset-0 bg-white/0 group-hover:bg-white/10 transition-colors duration-300 z-0"></div>
             <img
-              src="./src/assets/images/gym.png"
+              src="/images/gym.png"
               alt="gym img"
               className="w-full h-full object-cover rounded-[20px] transition-transform duration-300 group-hover:scale-105"
             />

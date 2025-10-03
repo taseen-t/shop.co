@@ -4,13 +4,13 @@ const GarmentBox = () => {
   const products = [
     {
       title: "T-Shirt with Tape Details",
-      image: "./src/assets/images/shirt1.png",
+      image: "/images/shirt1.png",
       price: 119.99,
       rating: 4.5,
     },
     {
       title: "Skinny Fit Jeans",
-      image: "./src/assets/images/jeans.png",
+      image: "/images/jeans.png",
       price: 239.99,
       oldPrice: 259.99,
       discount: 20,
@@ -18,13 +18,13 @@ const GarmentBox = () => {
     },
     {
       title: "Checkered Shirt",
-      image: "./src/assets/images/checkeredShirt.png",
+      image: "/images/checkeredShirt.png",
       price: 179.99,
       rating: 4.5,
     },
     {
       title: "Sleeve Striped T-shirt",
-      image: "./src/assets/images/halfSleeves.png",
+      image: "/images/halfSleeves.png",
       price: 129.99,
       oldPrice: 159.99,
       discount: 30,

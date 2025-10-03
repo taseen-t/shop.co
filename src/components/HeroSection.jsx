@@ -25,17 +25,17 @@ const HeroSection = () => {
 
         <div>
           <img
-            src="./src/assets/images/heroImg.png"
+            src="/images/heroImg.png"
             alt="HeroImage"
             className="mb-21 ml-4"
           />
           <img
-            src="./src/assets/images/star.png"
+            src="/images/star.png"
             alt="star"
-            className="absolute top-[86px] left-[1255px]"
+            className="hidden lg:block absolute top-[86px] right-[100px] w-6 lg:w-auto"
           />
           <img
-            src="./src/assets/images/star.png"
+            src="/images/star.png"
             alt="star"
             className="absolute top-[297px] left-[750px] w-[56px] h-[56px]"
           />

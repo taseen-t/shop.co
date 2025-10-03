@@ -101,6 +101,9 @@ const Navbar = () => {
           <div className="relative group">
             <ShoppingCart className="w-6 h-6 text-black cursor-pointer hover:text-gray-600 hover:scale-110 transition-all duration-300 transform group-hover:rotate-12" />
             <div className="absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 animate-pulse"></div>
+            <div className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 bg-black text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap z-50">
+              Cart
+            </div>
           </div>
           <Link to="/user" className="relative group">
             <User className="w-6 h-6 text-black cursor-pointer hover:text-gray-600 hover:scale-110 transition-all duration-300 transform group-hover:rotate-12" />

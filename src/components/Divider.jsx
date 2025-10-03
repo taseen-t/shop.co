@@ -1,4 +1,3 @@
-
 import Marquee from "react-fast-marquee";
 
 const Divider = () => {
@@ -7,19 +6,19 @@ const Divider = () => {
       <Marquee gradient={false} speed={50} pauseOnHover={true} direction="left">
         <div className="flex items-center gap-34 mx-4">
           <span className="text-lg font-semibold">
-            <img src="./src/assets/images/versaceLogo.png" />
+            <img src="/images/versaceLogo.png" />
           </span>
           <span className="text-lg">
-            <img src="./src/assets/images/zaraLogo.png" />
+            <img src="/images/zaraLogo.png" />
           </span>
           <span className="text-lg font-semibold">
-            <img src="./src/assets/images/gucciLogo.png"/>
+            <img src="/images/gucciLogo.png" />
           </span>
           <span className="text-lg">
-            <img src="./src/assets/images/pradaLogo.png" />
+            <img src="/images/pradaLogo.png" />
           </span>
           <span className="text-lg font-semibold">
-            <img src="./src/assets/images/CKLogo.png" />
+            <img src="/images/CKLogo.png" />
           </span>
         </div>
       </Marquee>
