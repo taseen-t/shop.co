@@ -1,26 +1,24 @@
-import Navbar from "./components/Navbar";
-import WelcomLine from "./components/WelcomLine";
-import HeroSection from "./components/HeroSection";
-import Divider from "./components/Divider";
-import NewArrivals from "./components/NewArrivals";
-import GarmentBox from "./components/GarmentBox";
-import TopSelling from "./components/topSelling";
-import GarmentBox1 from "./components/GarmentBox1";
-import DressStyle from "./components/DressStyle";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import ErrorBoundary from "./components/ErrorBoundary";
+import Home from "./components/Home";
+import UserProfile from "./components/UserProfile";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/user",
+    element: <UserProfile />,
+  },
+]);
 
 function App() {
   return (
-    <>
-      <WelcomLine />
-      <Navbar />
-      <HeroSection />
-      <Divider />
-      <NewArrivals />
-      <GarmentBox />
-      <TopSelling />
-      <GarmentBox1 />
-      <DressStyle />
-    </>
+    <ErrorBoundary>
+      <RouterProvider router={router} />
+    </ErrorBoundary>
   );
 }
 
